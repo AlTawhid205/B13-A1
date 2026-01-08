@@ -16,7 +16,7 @@ nav .nev-contain{
   padding: 0 120px;
 }
 nav .nev-contain img{
-  height: 64px;
+  height: 60px;
   width: 139px;
 }
 nav .nev-contain .nav-link ul{
@@ -40,4 +40,76 @@ nav .nev-contain button{
   font-weight: 600;
   background-color: #469165;
   color: #FFFFFF;
+  cursor: pointer;
+}
+nav .nev-contain button:hover{
+  background-color:#326748;
+  color: #FFFFFF;
+  transition: 0.5s;
+}
+
+main .hero-section{
+  background-image: url("../assets/hero-bg.png");
+  height: 674px;
+  width: auto;
+  background-repeat: no-repeat;
+}
+main .hero-section .hero-contain{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 116px 120px 180px 120px;
+}
+
+main .hero-section .hero-contain h6{
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding: 8px 12px;
+  gap: 6px;
+  color: #30B868;
+}
+main .hero-section .hero-contain h1{
+font-weight: 700;
+font-size: 72px;
+line-height: 84px;
+text-align: center;
+color: #FFFFFF;
+margin-top: 24px;
+
+}
+main .hero-section .hero-contain h1 span{
+  color: #30B868;
+}
+main .hero-section .hero-contain p{
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+main .hero-section .hero-contain button{
+  font-size: 16px;
+  font-weight: 600;
+  height: 52px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 4px;
+  background-color: #30B868;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+}
+main .hero-section .hero-contain .def-btn{
+  background: transparent;
+  border: 1px solid #FFFFFF;
+}
+
+main .hero-section .hero-contain button:hover{
+  background-color: #326748;
+  color: #FFFFFF;
+  transition: 0.5s;
 }
