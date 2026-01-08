@@ -1,7 +1,8 @@
 *{
   margin: 0;
   padding: 0;
-  
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
 }
 
 .work-sans{
@@ -107,8 +108,132 @@ main .hero-section .hero-contain .def-btn{
   background: transparent;
   border: 1px solid #FFFFFF;
 }
+main .hero-section .hero-contain .def-btn:hover{
+  background-color: #30B868;
+  color: #FFFFFF;
+  transition: 0.5s;
+  border: none;
+}
 
 main .hero-section .hero-contain button:hover{
+  background-color: #326748;
+  color: #FFFFFF;
+  transition: 0.5s;
+}
+
+main .main-card .head{
+  text-align: center;
+}
+main .main-card .head h2{
+  font-size: 48px;
+  font-weight: 700;
+  color: #001931;
+}
+main .main-card .head p{
+  padding-top: 16px;
+  font-size: 16px;
+  color: #627382;
+}
+main .main-card .card{
+  display: flex;
+  padding: 0 120px;
+  gap: 24px;
+  margin-top: 44px;
+}
+main .main-card .card .card-info{
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+
+}
+main .main-card .card .card-info img{
+  height: 60px;
+  width: 60px;
+}
+main .main-card .card .card-info h2{
+  font-size: 24px;
+  color: #001931;
+  font-weight: 600;
+}
+main .main-card .card .card-info p{
+  font-size: 16px;
+  color: #627382;
+  line-height: 24px;
+  margin-top: 16px;
+  padding: 0 24px;
+}
+
+body .body-buttom {
+  display: flex;
+  margin: 120px;
+  gap: 60px;
+  align-items: center;
+}
+body .body-buttom .bb-img{
+  border-radius: 12px;
+}
+
+body .body-buttom .bb-info h6{
+  font-size: 16px;
+  padding-bottom: 16px;
+  color: #469165;
+  font-weight: 500;
+}
+body .body-buttom .bb-info h2{
+  color: #001931;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom:16px;
+}
+body .body-buttom .bb-info p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 40px;
+}
+body .body-buttom .bb-info ul{
+  list-style: none;
+  line-height: 30px;
+  font-size: 16px;
+  height: 20px;
+  padding-left: 20px;
+  font-weight: 600;
+  color: #001931;
+  list-style-image: url("../assets/CheckCircle.png");
+}
+main .last{
+  margin: 120px;
+  text-align: center;
+  background-color:#F7F6F2;
+  border-radius: 12px;
+  padding: 80px 40px 80px 40px;
+}
+main .last .last-info h2{
+  color: #001931;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 16px;
+}
+main .last .last-info p{
+  color: #627382;
+  line-height: 24px;
+  font-size: 16px;
+  padding-bottom: 24px;
+}
+main .last .last-info button{
+  font-size: 16px;
+  font-weight: 600;
+  height: 52px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  background-color: #30B868;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+}
+main .last .last-info button:hover{
   background-color: #326748;
   color: #FFFFFF;
   transition: 0.5s;
