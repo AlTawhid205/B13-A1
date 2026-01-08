@@ -146,10 +146,6 @@ main .main-card .card .card-info{
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
 
 }
-main .main-card .card .card-info img{
-  height: 60px;
-  width: 60px;
-}
 main .main-card .card .card-info h2{
   font-size: 24px;
   color: #001931;
@@ -161,6 +157,17 @@ main .main-card .card .card-info p{
   line-height: 24px;
   margin-top: 16px;
   padding: 0 24px;
+}
+main .main-card .card .card-info img{
+  background-color: #F95555;
+  border-radius: 100%;
+  padding: 14px;
+  margin-bottom: 16px;
+  
+}
+main .main-card .card .card-info {
+  align-items: center;
+  padding: 70px 24px 0 24px;
 }
 
 body .body-buttom {
@@ -250,6 +257,7 @@ footer .foot-info{
   color: #FFFFFF;
   font-size: 20px;
   line-height: 20px;
+  margin-bottom: 84px;
 }
 footer .foot-info img{
   height: 60px;
@@ -265,5 +273,7 @@ footer .foot-info a{
 footer .copy-right p{
   color: #FFFFFF;
   text-align: center;
-  padding: 60px 120px 30px 120px;
+  border-top: 1px solid #2E4256;
+  margin: 0 120px;
+  padding: 30px 120px 30px 120px;
 }
