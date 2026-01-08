@@ -238,3 +238,32 @@ main .last .last-info button:hover{
   color: #FFFFFF;
   transition: 0.5s;
 }
+footer{
+    background-color: #001931;
+}
+footer .main-foot{
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 120px 0 120px;
+}
+footer .foot-info{
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 20px;
+}
+footer .foot-info img{
+  height: 60px;
+  width: 139px;
+}
+footer .foot-info p{
+  margin-bottom: 16px;
+}
+footer .foot-info a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+footer .copy-right p{
+  color: #FFFFFF;
+  text-align: center;
+  padding: 60px 120px 30px 120px;
+}
